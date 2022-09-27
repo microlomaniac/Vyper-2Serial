@@ -1,3 +1,9 @@
+## This fork
+
+This fork enables the second serial port on the Anycubic Vyper's motherboard (the one with the female connectors and adjacent 3V3 supply). I use it to connect an ESP32 / ESP8266 microcontroller running [ESP3D](https://github.com/luc-github/ESP3D).
+
+Just connect GND->GND, 3V3->3V3, RX->TX, TX->RX. No soldering required. No logic level shifting required.
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
